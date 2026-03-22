@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+  <course>
+    <title>Web Development</title>
+    <instructor>Dr. Rajesh</instructor>
+    <price>1999</price>
+    <rating>4.8</rating>
+    <duration>8 Weeks</duration>
+  </course>
+  <course>
+    <title>Python Programming</title>
+    <instructor>Ms. Kavya</instructor>
+    <price>1499</price>
+    <rating>4.7</rating>
+    <duration>6 Weeks</duration>
+  </course>
+  <course>
+    <title>Java Programming</title>
+    <instructor>Mr. Arun</instructor>
+    <price>1599</price>
+    <rating>4.6</rating>
+    <duration>7 Weeks</duration>
+  </course>
+  <course>
+    <title>Cloud Computing</title>
+    <instructor>Ms. Priya</instructor>
+    <price>2199</price>
+    <rating>4.8</rating>
+    <duration>8 Weeks</duration>
+  </course>
+</courses>
