@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -11,6 +12,10 @@
 .card .btn {
   margin-top: auto;
   align-self: flex-start;
+}
+
+.card p {
+  margin-bottom: 8px;
 }
 
 body {
