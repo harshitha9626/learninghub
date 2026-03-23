@@ -1,4 +1,6 @@
-function validateForm() {
+document.getElementById("registerForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
     let pass = document.getElementById("password").value;
     let confirmPass = document.getElementById("confirmPassword").value;
     let msg = document.getElementById("msg");
@@ -6,10 +8,14 @@ function validateForm() {
     if (pass !== confirmPass) {
         msg.innerHTML = "Passwords do not match!";
         msg.style.color = "red";
-        return false;
+        return;
     }
 
     msg.innerHTML = "Registered successfully!";
     msg.style.color = "green";
-    return false;
-}
+});
+
+document.getElementById("loginForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Login successful!");
+});
