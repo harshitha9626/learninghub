@@ -1,12 +1,15 @@
 function validateForm() {
-    
     let pass = document.getElementById("password").value;
     let confirm = document.getElementById("confirm").value;
+    let msg = document.getElementById("msg");
 
     if (pass !== confirm) {
-        alert("Passwords do not match!");
+        msg.innerHTML = "Passwords do not match!";
+        msg.style.color = "red";
         return false;
     }
-    alert("Registration Successful!");
-    return true;
+
+    msg.innerHTML = "Registered successfully!";
+    msg.style.color = "green";
+    return false;
 }
